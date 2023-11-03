@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"myproject/simplecalc"
+	"myproject/sMaps"
 )
 
 type name struct {
@@ -11,9 +11,13 @@ type name struct {
 }
 
 func main() {
-	defer fmt.Println("ADD ->> ", simplecalc.Add(3, 5))
 
-	defer statement(5) // defer
+	// NOV 3
+	sMaps.MapFunc()
+
+	//defer fmt.Println("ADD ->> ", simplecalc.Add(3, 5))
+
+	//defer statement(5) // defer
 
 	//STRUCT
 	n := name{
